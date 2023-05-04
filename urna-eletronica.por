@@ -33,7 +33,7 @@ programa
 		escreva(" Encerrar a votação ")
 
 
-	
+
 
 
 caso contrario:
@@ -52,7 +52,7 @@ caso contrario:
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 465; 
+ * @POSICAO-CURSOR = 461; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
