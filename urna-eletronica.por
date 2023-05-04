@@ -32,8 +32,7 @@ programa
 	caso 0:
 		escreva(" Encerrar a votação ")
 	
-		
-
+		  
 		
 caso contrario:
 	escreva(" Nenhum candidato foi votado ")
@@ -51,7 +50,7 @@ caso contrario:
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 534; 
+ * @POSICAO-CURSOR = 468; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
