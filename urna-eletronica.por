@@ -4,10 +4,20 @@ programa
 	funcao inicio(){
 		
 		inteiro numeroCandidato
+		inteiro voto1 = 0
+		inteiro voto2 = 0
+		inteiro voto3 = 0
+		inteiro votoBranco = 0
+		inteiro votoNulo = 0
+		inteiro opcao
+		
 
+	
 		escreva(" Digite o número do candidato: ")
 		leia(numeroCandidato)
 
+		
+   
 
 	escolha (numeroCandidato) {
 
@@ -32,6 +42,8 @@ programa
 	caso 0:
 		escreva(" Encerrar a votação ")
 
+		
+
 
 
 
@@ -52,7 +64,7 @@ caso contrario:
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 461; 
+ * @POSICAO-CURSOR = 554; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
