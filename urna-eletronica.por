@@ -10,11 +10,31 @@ programa
 		inteiro votoBranco = 0
 		inteiro votoNulo = 0
 		inteiro opcao
+
+		
+		cadeia nomeCandidato1 = "Jonas"
+		cadeia nomeCandidato2 = "Jenas"
+		cadeia nomeCandidato3 = "Junas"
 		
 
 	
 		escreva(" Digite o número do candidato: ")
 		leia(numeroCandidato)
+
+		logico 
+			opcaoInvalida = falso
+			
+		
+			escreva("**configuração urna eletrônica/n/n")
+
+			escreva("*>> Digite o nome do candidato 1: ")
+			leia(nomeCandidato1)
+			
+			escreva("*>> Digite o nome do candidato 2: ")
+			leia(nomeCandidato2)
+			
+			escreva("*>> Digite o nome do candidato 3: ")
+			leia(nomeCandidato3)
 
 		
    
@@ -60,7 +80,7 @@ caso contrario:
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 603; 
+ * @POSICAO-CURSOR = 1023; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
