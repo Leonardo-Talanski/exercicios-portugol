@@ -44,10 +44,6 @@ programa
 
 		
 
-
-
-
-
 caso contrario:
 	escreva(" Nenhum candidato foi votado ")
 		
@@ -64,7 +60,7 @@ caso contrario:
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 554; 
+ * @POSICAO-CURSOR = 603; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
