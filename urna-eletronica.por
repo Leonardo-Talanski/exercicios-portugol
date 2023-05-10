@@ -41,17 +41,7 @@ programa
 			empate = falso,
 			encerraVotacao = falso
 
-			//voto no candidato 1 
-			somConfirmacao()
-			escreva("O som foi executado 1 vez/n")
 			
-			//voto no candidato 2
-			somConfirmacao()
-			escreva("O som foi executado 2 vez/n")
-			
-			//voto no candidato 3
-			somConfirmacao()
-			escreva("O som foi executado 3 vez/n")
 
 		escreva("** Configuração da urna eletrônica\n\n")
 		
@@ -90,26 +80,31 @@ programa
 				caso 1:
 					votosCandidato1++
 					votosTotais++
+					somConfirmacao()
 					pare
 				
 				caso 2:
 					votosCandidato2++
 					votosTotais++
+					somConfirmacao()
 					pare
 				
 				caso 3:
 					votosCandidato3++
 					votosTotais++
+					somConfirmacao()
 					pare
 				
 				caso 5:
 					votosBranco++
 					votosTotais++
+					somConfirmacao()
 					pare
 				
 				caso 8:
 					votosNulo++
 					votosTotais++
+					somConfirmacao()
 					pare
 
 				
@@ -193,7 +188,7 @@ programa
 	{
 		
 		inteiro tempoDeEsperaSom = 2000
-		inteiro somDeConfirmacao = Sons.carregar_som("confirma-urna.mp3")
+		inteiro somDeConfirmacao = som.carregar_som("confirma-urna.mp3")
 
 		Sons.reproduzir_som(somDeConfirmacao, falso)
 		
@@ -206,7 +201,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4619; 
+ * @POSICAO-CURSOR = 743; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
